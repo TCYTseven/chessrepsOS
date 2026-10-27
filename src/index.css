@@ -11,7 +11,7 @@
   --sq-dark: #739552;
   --last-move: rgba(255, 255, 51, 0.5);
   --selected: rgba(255, 255, 51, 0.6);
-  --wrong: rgba(235, 97, 80, 0.85);
+  --wrong: rgba(226, 87, 76, 0.8);
   font-family: 'Segoe UI', system-ui, -apple-system, Roboto, Helvetica, Arial, sans-serif;
   color: var(--text);
   background: var(--bg);
@@ -34,4 +34,22 @@ button {
   font: inherit;
   color: inherit;
   cursor: pointer;
+}
+
+:root {
+  --red: #e2574c;
+  --hint: #f7c631;
+}
+
+a {
+  color: inherit;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation: none !important;
+    transition: none !important;
+  }
 }
